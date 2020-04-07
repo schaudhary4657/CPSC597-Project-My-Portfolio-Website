@@ -1,2 +1,5 @@
-# nomorejuryduty-classactivity
-Here the brief description about the project is given.
+# My-Portfolio-Website
+
+A portfolio website is worth having. A portfolio website is not only a great way to present oneself to the world and make a good impression online, but it is also useful if anyone wants to showcase one’s work and/or competences. One can easily update one’s website & add new, relevant things. Portfolio website gives the power to stand out from the competitors. One need to show everyone what one’s good at, not just inform them about it. It can also create single place where all the projects can reside so someone who is hiring can view the overall portfolio.
+
+As I have a goal to establish my career as a web developer in future so rather than telling prospective employers about my skills, it is effective to create a professional portfolio to show them. Professional portfolio is more than a simple resume. It is a showcase that proves that you can do what you talk about in your resume. A well-rounded portfolio is a vital asset that can make all the difference when you’re competing with other hopefuls for a coveted role. Furthermore, you can use a tech portfolio website to craft your personal brand. You can go beyond the work samples to express your personality and highlight critical soft skills too. This gives potential employers a better understanding of how you may fit in with their existing company culture or whether you’d succeed in the role they’re looking to fill.
