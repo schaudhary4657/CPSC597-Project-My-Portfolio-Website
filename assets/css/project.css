@@ -1,0 +1,156 @@
+.projects {
+    padding-bottom: 4em;
+}
+
+.project {
+    margin: 20px;
+}
+  
+.project-heading {
+    font-size: 3.25em;
+    color: rgba(117, 121, 149, 0.5);
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+  
+.project-title {
+    font-size: 1.25em;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+  
+.project-card {
+    position: relative;
+    background-color: #101010;
+    color: white;
+    border-top: 10px solid #ff274e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: auto;
+    margin-bottom: 2em;
+    max-width: 30em;
+}
+  
+.project-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    border-top: 10px solid #92B8D1;
+}
+  
+.project-buttons {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+}
+  
+  
+.project-img img {
+    height: 18em;
+    width: 30em;
+}
+  
+.card-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 35px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+}
+  
+@media screen and (min-width: 920px) {
+    .projects-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .project-card {
+        max-width: 25em;
+    }
+  
+    .project-img > img {
+        height: 15em;
+    }
+}
+  
+@media screen and (min-width: 1080px) {
+    .project-card {
+        max-width: 30em;
+    }
+  
+    .project-img > img {
+        height: 20em;
+    }
+}
+  
+@media screen and (min-width: 1340px) {
+    .project-card {
+        max-width: 35em;
+    }
+}
+  
+@media screen and (min-width: 1600px) {
+    .projects-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    .project-card {
+        max-width: 32em;
+    }
+  
+    .project-img > img {
+        height: 20em;
+    }
+}
+
+.fa-github {
+    line-height: 36px;
+    font-weight: 400;
+}
+
+div .btn {
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    opacity: 1;
+    color: #121316;
+}
+
+div .btn-50 {
+    width: 50%;
+    border-radius: 0;
+}
+
+div .btn-primary {
+    background-color: #ff274e;
+}
+
+div .btn-secondary {
+    background-color: #737894;
+}
+
+.btn-primary a {
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-secondary a {
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}

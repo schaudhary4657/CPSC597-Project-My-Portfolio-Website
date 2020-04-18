@@ -1,0 +1,25 @@
+button {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+    color: #505357;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #121316
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}

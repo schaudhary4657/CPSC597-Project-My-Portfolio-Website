@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/project.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/441a588260.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body style="background-color: lightblue;">
@@ -44,29 +46,34 @@
     
   </nav>
 
-  <div class="container">
-    <h4 class="card-title"><b><u>Contact</u></b></h4>
-    
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Name</label>
-            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-          </div>
-
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+  <section class = "contact">
+    <div class="container">
+      <h4 class="card-title"><b><u>Contact Me</u></b></h4><br />
       
-  </div>
+          <form>
+            <fieldset>
+              <ul>
+                <div class="contact_container">
+                  <label for="name"><i class="fal fa-user contact__icon"></i></label>
+                  <input type="text" class="contact__input" id="name" placeholder="e.g. John Smith">
+                </div>
+      
+                <div class="contact__container">
+                  <label for="email"><i class="fal fa-envelope contact__icon"></i></label>
+                  <input type="text" class="contact__input" id="email" placeholder="e.g. name@example.com">
+                </div>
+      
+                <div class="contact__container">
+                  <label for="message"><i class="fal fa-comment-lines contact__icon"></i></label>
+                  <textarea type = "text" class="contact__input" id="message" placeholder="Type your message here..." rows="3"></textarea>
+                </div>
+              </ul>
+    
+              <button type="submit" class="btn btn-primary btn-submit">Submit</button>
+            </fieldset>
+          </form>
+    </div>
+  </section>
 
 </body>
 </html>
