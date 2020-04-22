@@ -128,6 +128,13 @@ p {
   display: inline-block;
 }
 
+.card-title {
+  font-size: 2em;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
 .card-img {
   width: 250px;
   height: 250px;
@@ -139,16 +146,6 @@ p {
 
 .col-md-3 {
   margin-left: 30px;
-  margin-bottom: 20px;
-}
-
-.form-group {
-  margin-left: 30px;
-}
-
-.btn-submit {
-  margin-left: 30px;
-  background-color: teal;
   margin-bottom: 20px;
 }
 
@@ -168,6 +165,20 @@ td {
   padding: 15px;
 }
 
+.info-skills {
+  margin-left: 80px;
+}
+
+div .alert-primary {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  margin: 40px;
+  background-color: black;
+  color: white;
+}
+
 div .work-history {
   margin-left: 50px;
   margin-top: 30px;
@@ -184,7 +195,7 @@ div .work-history {
 /* Landing Page
 Background  
 *************************** */
-.background-img {
+#background-img {
   position: relative;
   background-image: url("https://ak5.picdn.net/shutterstock/videos/1090405/thumb/1.jpg");
   background-position: center;
@@ -193,7 +204,7 @@ Background
   color: #fff;
 }
 
-.background-img:before {
+#background-img:before {
   position: absolute;
   content: "";
   background: #2a2a2e;
@@ -244,6 +255,9 @@ main .container {
 
 .profile-connect {
   cursor: pointer;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 /* Info Connect 
@@ -346,8 +360,7 @@ main .container {
 /* Contact Form Elements 
 *************************** */
 .contact {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2.5em;
 }
 
 form > fieldset > ul {
@@ -417,7 +430,22 @@ textarea::placeholder {
 }
 
 .btn-submit {
-    width: 50%;
-    border-radius: 5px;  
-    text-transform: uppercase;
+  width: 50%;
+  border-radius: 5px;  
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* Footer Marquee 
+*************************** */
+.footer-marquee {
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: sans-serif;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  position: relative;
+  background-color: #ee6e73;
+  padding-top: 15px;
+  color: white;
 }
